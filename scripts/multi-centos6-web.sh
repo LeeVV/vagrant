@@ -13,3 +13,5 @@ service httpd start
 
 # PHP
 yum install -y php php-cli php-common php-devel php-mysql
+
+# END
