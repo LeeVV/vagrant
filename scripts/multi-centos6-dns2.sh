@@ -2,6 +2,6 @@
 
 # DNS 2  Slave
 
-echo " DNS 2 script"
+yum install -y bind bind-utils
 
 # END

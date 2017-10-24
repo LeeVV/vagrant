@@ -2,6 +2,6 @@
 
 # DNS 1  Master
 
-echo " DNS 1 script"
+yum install -y bind bind-utils
 
 # END
