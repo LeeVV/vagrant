@@ -1,3 +1,8 @@
 [user]
-	name = LeeVV
+	name = Lee Wilkinson
 	email = lee.vvilkinson@gmail.com
+[core]
+	autocrlf = input
+[alias]
+	s = status -s
+	log = log --oneline --all --graph --decorate
