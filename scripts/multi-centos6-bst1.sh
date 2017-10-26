@@ -4,4 +4,4 @@
 yum update -y --exclude=kernel
 
 # Tools
-yum install -y git screen nc
+yum install -y git screen nc nmap traceroute bind-utils
