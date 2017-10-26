@@ -4,4 +4,4 @@
 yum update -y --exclude=kernel
 
 # Tools
-yum install -y git unzip screen nc telnet
+yum install -y git screen nc
