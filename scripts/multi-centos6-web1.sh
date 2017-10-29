@@ -12,6 +12,7 @@ chkconfig --add httpd
 chkconfig httpd on
 service httpd stop
 
+# Link local share
 rm -rf /var/www/html
 ln -s /vagrant /var/www/html
 
