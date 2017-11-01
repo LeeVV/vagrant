@@ -7,7 +7,7 @@ yum update -y --exclude=kernel
 yum install -y git screen nc lsof bind-utils nmap
 
 # NGINX
-echo "Install EPEL"
+echo "Install EPEL & nginx"
 yum install -y epel-release
-#yum install -y nginx
-#service nginx restart
+yum install -y nginx
+service nginx restart
