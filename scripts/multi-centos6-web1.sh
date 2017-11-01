@@ -7,13 +7,13 @@ yum update -y --exclude=kernel
 yum install -y git screen nc lsof bind-utils nmap
 
 # Apache
-yum install -y httpd httpd-devel httpd-tools
+yum install -y httpd httpd-devel httpd-tools httpd-manual
 chkconfig --add httpd
 chkconfig httpd on
 service httpd restart
 
 # Link local share
-#rm -rf /var/www/html
+##rm -rf /var/www/html##
 #ln -s /vagrant /var/www/html
 
 #service httpd start
