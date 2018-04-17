@@ -14,7 +14,7 @@ yum update -y --exclude=kernel
 echo ""
 echo "##==>  Installing Tools... "
 echo ""
-yum install -y git screen nc nmap traceroute bind-utils lsof
+yum install -y ansible git screen nc nmap traceroute bind-utils lsof
 
 # Data
 echo ""
