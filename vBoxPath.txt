@@ -1,0 +1,3 @@
+# Path for vboxmanage, and other exe's
+
+  "C:\Program Files\Oracle\VirtualBox"
